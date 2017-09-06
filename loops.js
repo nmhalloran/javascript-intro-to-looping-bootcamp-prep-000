@@ -20,8 +20,8 @@ console.log(weirdLoop)
 countdown = 6
 function whileLoop(number) {
 
-  while (countdown > 0) {
-    console.log(countdown--)
+  while (number > 0) {
+    console.log(number--)
   }
   return 'done'
 }

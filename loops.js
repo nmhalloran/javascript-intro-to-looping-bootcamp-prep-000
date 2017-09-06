@@ -13,7 +13,7 @@ function forLoop(array) {
   }
 }
 
-countdown = 10
+countdown = 6
 function whileLoop(number) {
 
   while (countdown > 0) {
@@ -21,3 +21,4 @@ function whileLoop(number) {
   }
   return 'done'
 }
+

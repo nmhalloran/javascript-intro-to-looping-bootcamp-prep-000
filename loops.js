@@ -32,7 +32,7 @@ function doWhileLoop(array) {
   } while (array.length > 0 && maybeTrue())
   console.log(array)
   console.log(array.length)
-  return array
+  
 }
 
 forLoop(weirdLoop)

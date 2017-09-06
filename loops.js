@@ -22,4 +22,3 @@ function whileLoop(number) {
   return 'done'
 }
 
-whileLoop(countdown)

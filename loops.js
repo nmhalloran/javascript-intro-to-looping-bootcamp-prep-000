@@ -29,10 +29,10 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     array.pop()
+    console.log(array.length)
   } while (array.length > 0 && maybeTrue())
   console.log(array)
-  console.log(array.length)
-  
+
 }
 
 forLoop(weirdLoop)

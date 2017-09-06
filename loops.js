@@ -32,6 +32,6 @@ function doWhileLoop(array) {
     console.log(array[-1])
   } while (array.length > 0 && maybeTrue())
 }
-
+console.log(weirdLoop)
 forLoop(weirdLoop)
 doWhileLoop(weirdLoop)

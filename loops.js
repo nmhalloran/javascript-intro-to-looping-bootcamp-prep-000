@@ -14,7 +14,7 @@ function forLoop(array) {
 }
 
 forLoop(weirdLoop)
-console.log(weirdloop)
+console.log(weirdLoop)
 
 countdown = 6
 function whileLoop(number) {
@@ -24,4 +24,3 @@ function whileLoop(number) {
   }
   return 'done'
 }
-

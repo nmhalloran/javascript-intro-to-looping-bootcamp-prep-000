@@ -13,5 +13,11 @@ function forLoop(array) {
   }
 }
 
-forLoop(weirdLoop)
-console.log(weirdLoop)
+function whileLoop(number) {
+  let countdown = 10;
+
+  while (countdown > 0) {
+    console.log(countdown--)
+  }
+  return 'done'
+}

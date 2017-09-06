@@ -1,9 +1,10 @@
 var weirdLoop = []
 
-function forLoop() {
+function forLoop(array) {
   for (var i = 0; i < 25; i++) {
-    console.log("Hello, " + i)
+    array[i] = "I am ${i} stramge loops"
+    console.log(array[i])
   }
 }
 
-forLoop()
+forLoop(weirdLoop)

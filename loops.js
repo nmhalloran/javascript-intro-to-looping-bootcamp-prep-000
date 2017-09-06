@@ -1,3 +1,5 @@
+weirdLoop = []
+
 function forLoop(array) {
   i = 0
 
@@ -27,5 +29,9 @@ function maybeTrue() {
 function doWhileLoop(array) {
   do {
     array.pop()
+    console.log(array[-1])
   } while (array.length > 0 && maybeTrue())
 }
+
+forLoop(weirdLoop)
+doWhileLoop(weirdLoop)

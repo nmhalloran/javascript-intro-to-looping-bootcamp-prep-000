@@ -31,6 +31,7 @@ function doWhileLoop(array) {
     array.pop()
   } while (array.length > 0 && maybeTrue())
   console.log(array)
+  console.log(array.length)
   return array
 }
 

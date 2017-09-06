@@ -5,6 +5,7 @@ function forLoop(array) {
     if (i = 1) {
       array[i] = "I am 1 strange loop"
       console.log(array[i])
+      return array[i]
     }
     else {
       array[i] = "I am ${i} strange loops"

@@ -9,4 +9,4 @@ function forLoop(array) {
 }
 
 forLoop(weirdLoop)
-weirdLoop;
+console.log(weirdLoop)
